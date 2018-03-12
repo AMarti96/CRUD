@@ -18,7 +18,6 @@
             }
             return str; }
 
-
         this.sendMessageToAdminSever = function (origin, destination, server, sharedKey,d,n,e, message, callback) {
 
             var cypher= CryptoJS.AES.encrypt(message,sharedKey).toString();
